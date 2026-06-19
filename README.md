@@ -1,6 +1,6 @@
 # Differential Surfel Rasterization
 
-**NOTE**: this is a modified version of `diff-surfel-rasterization` with trace support. The rasterizer now returns the Gaussian / pixel correspondence recorded during rendering, so you can recover which Gaussian IDs contribute to each output pixel.
+**NOTE**: this is a modified version of [diff-surfel-rasterization](https://github.com/hbb1/diff-surfel-rasterization/) with trace support. The rasterizer now returns the Gaussian / pixel correspondence recorded during rendering, so you can recover which Gaussian IDs contribute to each output pixel.
 
 ```python
 rendered_image, radii, allmap, extra_attrs, gau_related_pixels = rasterizer(
